@@ -25,7 +25,7 @@
             "name": "nginx",
             "image": "ducbin021/multi-nginx",
             "hostname": "nginx",
-            "essential": true,
+            "essential": false,
             "portMappings": [{
                 "hostPort": 80,
                 "containerPort": 80
