@@ -4,6 +4,10 @@
             "name": "client",
             "image": "ducbin021/multi-client",
             "hostname": "client",
+            "portMappings": [{
+                "hostPort": 3000,
+                "containerPort": 3000
+            }],
             "essential": false,
             "memory": 128
         },
